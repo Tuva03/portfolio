@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Ensure font doesn’t block rendering */
 @font-face {
   font-family: "Libre Baskerville";
   font-style: normal;
@@ -67,7 +66,6 @@ nav a:hover {
   max-width: 60%;
 }
 
-/* Fix CLS: lock width/height or aspect ratio */
 #profile_picture {
   width: 250px;
   height: 250px;
@@ -86,7 +84,7 @@ nav a:hover {
 #header_decoration {
   width: 100%;
   height: auto;
-  aspect-ratio: 3 / 1; /* Prevent layout shift */
+  aspect-ratio: 3 / 1;
   max-height: 300px;
   opacity: 0.5;
 }
@@ -94,7 +92,7 @@ nav a:hover {
 body {
   margin: 0;
   display: flex;
-  flex-direction: column; /* lighter than flex-wrap for main layout */
+  flex-direction: column;
 }
 
 main {
@@ -142,12 +140,16 @@ section {
   max-width: 400px;
   min-height: 200px;
   max-height: 300px;
-  border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
   background-color: #f0b4cf;
+}
+
+.project_tags {
+  opacity: 0.8;
+  font-size: 16px;
+  margin: 1rem;
 }
 
 #to_projects {
