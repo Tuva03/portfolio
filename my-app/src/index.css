@@ -1,18 +1,19 @@
 :root {
-  font-family: "Libre Baskerville", serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #2a1b3d;
-  background-color: #f6f0fa;
+  color: #210e27;
+  background-color: #f2f2f2;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "intertight", sans-serif;
 }
 
+/*
 @font-face {
   font-family: "Libre Baskerville";
   font-style: normal;
@@ -20,30 +21,41 @@
   font-display: swap;
   src: url("/fonts/libre-baskerville.woff2") format("woff2");
 }
-
+*/
 header {
-  background-image: linear-gradient(180deg, #2a1b3d, #f0b4cf, #f6f0fa);
+  background-image: linear-gradient(180deg, #ebd7c4, #f2f2f2);
   width: 100%;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3.5em;
+  line-height: 1.2;
+  font-family: "newsreader", serif;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2;
+  font-family: "newsreader", serif;
+  color: #a03e06;
 }
 
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   flex-wrap: wrap;
+  padding: 0% 15% 0% 0%;
+  justify-content: right;
+  gap: 5rem;
 }
 
 nav a {
-  padding: 20px 40px;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   text-decoration: none;
   color: #f6f0fa;
   font-weight: bold;
   font-size: 18px;
+  align-items: center;
 }
 
 nav a:hover {
@@ -64,16 +76,18 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   max-width: 60%;
+  font-family: "newsreader", serif;
 }
 
 #profile_picture {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: auto;
   object-fit: cover;
-  clip-path: ellipse(50% 50%);
-  z-index: 3;
+  /* clip-path: ellipse(50% 50%); */
+  border-radius: 10%;
 }
 
+/*
 #header_decoration_container {
   display: flex;
   justify-content: center;
@@ -88,7 +102,7 @@ nav a:hover {
   max-height: 300px;
   opacity: 0.5;
 }
-
+*/
 body {
   margin: 0;
   display: flex;
@@ -104,21 +118,113 @@ main {
 
 section {
   width: 100%;
+}
+
+p {
   font-size: 18px;
 }
 
 #about_me {
-  max-width: 50%;
-  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-#education h2,
-#education p {
-  margin-left: 55%;
+#about_me_text {
+  max-width: 50%;
+}
+
+#about_me_info {
+  border-radius: 10px;
+  max-width: 425px;
+  width: 100%;
+}
+
+#about_me_info ul {
+  list-style: none;
+  padding: 1rem 1rem 0rem 1rem;
+  margin-bottom: auto;
+}
+
+#about_me_info ul li#title {
+  color: #a03e06;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 0.5rem;
+  font-family: "newsreader", serif;
+}
+
+#about_me_info ul li#info {
+  border-bottom: 2px #a03e064d solid;
+}
+
+#about_me_info ul li {
+  font-size: 18px;
+  padding: 0.2rem;
+}
+
+#experience_container {
+  display: flex;
+  margin-top: 5rem;
+  text-align: center;
+  width: 100%;
+}
+
+#experience h2 {
+  text-align: left;
+}
+
+#experience_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 200px;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+#experience_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+#skills_header {
+  font-weight: 600;
+  font-size: 22px;
+  list-style: none;
+  padding: 2rem 0 0.5rem 0;
+  font-family: "newsreader", serif;
+  color: #a03e06;
+  border-bottom: 2px #a03e064d solid;
+  width: 100%;
+}
+
+#design_skills {
+  width: 25%;
+}
+
+#frontend_skills {
+  width: 25%;
+}
+
+#backend_skills {
+  width: 25%;
+}
+
+#skills_point {
+  list-style: none;
+  padding: 0.4rem;
+  font-size: 18px;
 }
 
 #projects {
-  margin-top: 1.5rem;
+  margin-top: 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -143,7 +249,17 @@ section {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
-  background-color: #f0b4cf;
+  background-color: #e9cdb4;
+}
+
+.project h2 {
+  font-weight: 650;
+  font-size: 30px;
+  padding: 0.25rem;
+}
+
+.project p {
+  margin: 0.5rem;
 }
 
 .project_tags {
@@ -154,32 +270,32 @@ section {
 
 #to_projects {
   max-width: 150px;
-  padding: 0.75rem;
+  padding: 0.6rem;
   font-size: 18px;
   align-self: center;
   border-radius: 20px;
-  margin: 20px;
-  background-color: #b499d4;
-  color: #2a1b3d;
+  margin: 3rem;
+  background-color: #643317;
+  color: #f0decf;
   border: none;
-  box-shadow: 2px 2px #2a1b3d;
   text-decoration: none;
 }
 
 #to_projects:hover {
-  background-color: #2a1b3d;
-  color: #f6f0fa;
-  box-shadow: 2px 2px #f6f0fa;
+  background-color: #351a0b;
+  color: #f0decf;
+  box-shadow: 2px 2px #331e076e;
 }
 
+/*
 footer {
   display: flex;
   flex-direction: column;
   height: 250px;
   padding: 5% 15% 0 15%;
-  background-image: linear-gradient(180deg, #f6f0fa, #f0b4cf, #2a1b3d);
 }
 
 footer p {
   font-size: 18px;
 }
+*/
