@@ -12,8 +12,8 @@ export default function Home() {
                 Tuva Marie Andersen
                 <br />
                 <em>
-                  Nyutdannet <span style={{ color: "#a03e06" }}>Designer</span>{" "}
-                  og <span style={{ color: "#a03e06" }}>Utvikler</span>
+                  Nyutdannet <span style={{ color: "#a03e06" }}>designer</span>{" "}
+                  og <span style={{ color: "#a03e06" }}>utvikler</span>
                 </em>
               </h1>
             </section>
@@ -50,7 +50,7 @@ export default function Home() {
                 Jeg er en 23 år gammel nyutdannet designer og utvikler. Jeg
                 trives best i skjæringspunktet mellom design og utvikling, og
                 har en stor interesse for både frontend og backend. Jeg brenner
-                for å utvikle og forbedre nye og eksisterendedigitale produkter
+                for å utvikle og forbedre nye og eksisterende digitale produkter
                 med fokus på brukerne.
               </p>
               <p>
@@ -70,7 +70,7 @@ export default function Home() {
                   HIOF
                 </li>
                 <li id="title">Språk</li>
-                <li id="info">Norsk (morsmål), Engelsk (flytende)</li>
+                <li id="info">Norsk (morsmål), engelsk (flytende)</li>
               </ul>
             </section>
           </div>
