@@ -4,13 +4,17 @@ import profilePicture from "../assets/profile_picture.jpg";
 export default function Home() {
   return (
     <>
-      <header>
+      <body>
+        <header>
           <div id="header_text_container">
             <section id="header_text">
               <h1>
                 Tuva Marie Andersen
                 <br />
-                <em>Nyutdannet Designer og Utvikler</em>
+                <em>
+                  Nyutdannet <span style={{ color: "#a03e06" }}>Designer</span>{" "}
+                  og <span style={{ color: "#a03e06" }}>Utvikler</span>
+                </em>
               </h1>
             </section>
             <img
@@ -18,6 +22,10 @@ export default function Home() {
               alt="Tuva Marie Andersen portrett bilde"
               id="profile_picture"
             />
+            <section id="header_subtext">
+              <button id="cv_button">Se CV</button>
+              <button id="contact_button">Mail meg</button>
+            </section>
           </div>
         </header>
         <main>
@@ -85,18 +93,22 @@ export default function Home() {
                 <h2>Food-E</h2>
                 <p>
                   Food-E er en matvare app laget for å minske matsvinn på en
-                  enkel og billig måte.
+                  enkel og billig måte. Vi ønsker å gjøre det lett for folk å ha
+                  en bærekraftlig livsstil.
                   <br />
                   Jeg har stått for UI og UX design og implementering.
                 </p>
+                {/* 
                 <p className="project_tags">
                   UI, UX, Prototyping, Universell utforming, Brukertesting, KI
                 </p>
+                */}
                 <Link to="/projects/foode">Les mer her</Link>
               </article>
             </div>
           </section>
         </main>
+      </body>
     </>
   );
 }
