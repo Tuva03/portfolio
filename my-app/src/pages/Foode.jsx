@@ -24,11 +24,10 @@ export default function Foode() {
           implementering.
         </p>
         <p>
-          Food-E startet som et bachelorprosjekt ved Høgskolen i Østfold, som vi
-          gjennomførte gjennom Drivhuset i Østfold for en innovativ bachelor. Vi
-          fikk stor eierskap til prosjektet gjennom bacheloren, og det var
-          absolutt noe vi ville fortsette med etter selve bacheloroppgaven var
-          levert.
+          Food-E startet som et innovativt bachelorprosjekt ved Høgskolen i
+          Østfold, som vi gjennomførte gjennom Drivhuset i Østfold. Vi fikk
+          stort eierskap til prosjektet gjennom bacheloren, og det var absolutt
+          noe vi ville fortsette med etter selve bacheloroppgaven var levert.
           <br />
           Under Expo 2025 vant vi NITO prisen som var en stor inspirasjon og ga
           oss et tydeligere inntrykk om at produktet vårt har et behov. Vi

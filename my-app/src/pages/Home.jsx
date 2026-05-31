@@ -50,8 +50,8 @@ export default function Home() {
                 Jeg er en 23 år gammel nyutdannet designer og utvikler. Jeg
                 trives best i skjæringspunktet mellom design og utvikling, og
                 har en stor interesse for både frontend og backend. Jeg brenner
-                for å utvikle og forbedre nye og eksisterende digitale produkter
-                med fokus på brukerne.
+                for å forbedre nye og eksisterende digitale produkter med fokus
+                på brukerne.
               </p>
               <p>
                 Jeg er komfortabel med både frontend- og backend-utvikling, men
