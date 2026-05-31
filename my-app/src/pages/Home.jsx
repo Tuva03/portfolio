@@ -23,8 +23,22 @@ export default function Home() {
               id="profile_picture"
             />
             <section id="header_subtext">
-              <button id="cv_button">Se CV</button>
-              <button id="contact_button">Mail meg</button>
+              <a
+                id="cv_button"
+                href="/CV-portefolje-Tuva-Marie-Andersen.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Se CV
+              </a>
+              <a
+                id="contact_button"
+                href="mailto:tuva.tma@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Mail meg
+              </a>
             </section>
           </div>
         </header>
