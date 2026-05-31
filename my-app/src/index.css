@@ -124,6 +124,13 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: #210e27;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0.2rem;
+}
+
 #about_me {
   display: flex;
   justify-content: space-between;
@@ -236,6 +243,7 @@ p {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  padding-bottom: 5rem;
 }
 
 .project {
@@ -245,10 +253,10 @@ p {
   min-width: 200px;
   max-width: 400px;
   min-height: 200px;
-  max-height: 300px;
+  max-height: 500px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.2);
   background-color: #e9cdb4;
 }
 
@@ -284,7 +292,7 @@ p {
 #to_projects:hover {
   background-color: #351a0b;
   color: #f0decf;
-  box-shadow: 2px 2px #331e076e;
+  box-shadow: 3px 3px 3px #331e076e;
 }
 
 /*
