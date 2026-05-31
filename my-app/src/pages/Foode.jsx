@@ -9,14 +9,13 @@ export default function Foode() {
             <Link id="link" to="/">
               ← Tilbake til portefølje
             </Link>
-
-            <h1>Food-e</h1>
+            <h1>Food-E</h1>
           </section>
         </div>
       </header>
       <main>
         <p>
-          Food-e er en app som hjelper brukere med å finne oppskrifter basert på
+          Food-E er en app som hjelper brukere med å finne oppskrifter basert på
           ingrediensene de har tilgjengelig hjemme. Appen bruker
           bildegjenkjenning for å analysere ingrediensene og foreslå oppskrifter
           som kan lages med det brukeren har. Med KI kan man få alternative
@@ -25,7 +24,7 @@ export default function Foode() {
           implementering.
         </p>
         <p>
-          Food-e startet som et bachelorprosjekt ved Høgskolen i Østfold, som vi
+          Food-E startet som et bachelorprosjekt ved Høgskolen i Østfold, som vi
           gjennomførte gjennom Drivhuset i Østfold for en innovativ bachelor. Vi
           fikk stor eierskap til prosjektet gjennom bacheloren, og det var
           absolutt noe vi ville fortsette med etter selve bacheloroppgaven var
@@ -53,8 +52,14 @@ export default function Foode() {
           <br />
           Appen er utviklet i React Native med Typescript.
         </p>
+        <p>
+          Vi har en nettside for Food-E mer mer informasjon om prosjektet og
+          utviklerne, men appen er fortsatt under utvikling. Link vil bli
+          tilgjengelig så fort den er lansert.
+        </p>
+        <br></br>
         <a target="_blank" rel="noreferrer" href="https://www.food-e.no/">
-          Les mer på hjemmesiden til Food-e her
+          Les mer på hjemmesiden til Food-E her
         </a>
       </main>
     </>
