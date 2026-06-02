@@ -39,6 +39,14 @@ export default function Home() {
               >
                 Mail meg
               </a>
+              <a
+                id="contact_button"
+                href="tel:+4741357423"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ring meg
+              </a>
             </section>
           </div>
         </header>
