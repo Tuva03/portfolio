@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import profilePicture from "../assets/profile_picture.jpg";
 
 export default function Home() {
   return (
@@ -18,7 +17,7 @@ export default function Home() {
               </h1>
             </section>
             <img
-              src={profilePicture}
+              src="/profile_picture.jpg"
               alt="Tuva Marie Andersen portrett bilde"
               id="profile_picture"
             />
@@ -56,10 +55,10 @@ export default function Home() {
               <h2>Hei!</h2>
               <p>
                 Jeg er en 23 år gammel nyutdannet designer og utvikler. Jeg
-                trives best i skjæringspunktet mellom design og utvikling, og
-                har en stor interesse for både frontend og backend. Jeg brenner
-                for å forbedre nye og eksisterende digitale produkter med fokus
-                på brukerne.
+                trives best i midtpunktet mellom design og utvikling, og har en
+                stor interesse for både frontend og backend. Jeg brenner for å
+                forbedre nye og eksisterende digitale produkter med fokus på
+                brukerne.
               </p>
               <p>
                 Jeg er komfortabel med både frontend- og backend-utvikling, men
@@ -89,7 +88,6 @@ export default function Home() {
                 <ul id="design_skills">
                   <li id="skills_header">Design</li>
                   <li id="skills_point">Figma</li>
-                  <li id="skills_point">Design Thinking</li>
                   <li id="skills_point">Prototyping</li>
                   <li id="skills_point">Brukertesting</li>
                 </ul>
@@ -105,6 +103,12 @@ export default function Home() {
                   <li id="skills_point">Java</li>
                   <li id="skills_point">SQL</li>
                 </ul>
+                <ul id="other_skills">
+                  <li id="skills_header">Annet</li>
+                  <li id="skills_point">Design Thinking</li>
+                  <li id="skills_point">Smidig metodikk (scrum og kanban)</li>
+                  <li id="skills_point">React Native</li>
+                </ul>
               </ul>
             </section>
           </div>
@@ -112,13 +116,13 @@ export default function Home() {
             <h2>Prosjekter</h2>
             <div className="project-container">
               <article className="project">
-                <h2>Food-E</h2>
+                <h2>Food-e</h2>
                 <p>
-                  Food-E er en matvare app laget for å minske matsvinn på en
+                  Food-e er en matvare app laget for å minske matsvinn på en
                   enkel og billig måte. Vi ønsker å gjøre det lett for folk å ha
                   en bærekraftlig livsstil.
                   <br />
-                  Jeg har stått for UI og UX design og implementering.
+                  Jeg har stått for UI- og UX-design og implementering av dette.
                 </p>
                 {/* 
                 <p className="project_tags">

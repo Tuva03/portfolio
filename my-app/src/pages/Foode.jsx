@@ -9,13 +9,13 @@ export default function Foode() {
             <Link id="link" to="/">
               ← Tilbake til portefølje
             </Link>
-            <h1>Food-E</h1>
+            <img id="foode_logo" src="/foode_logo.png" alt="Food-e Logo" />
           </section>
         </div>
       </header>
       <main>
         <p>
-          Food-E er en app som hjelper brukere med å finne oppskrifter basert på
+          Food-e er en app som hjelper brukere med å finne oppskrifter basert på
           ingrediensene de har tilgjengelig hjemme. Appen bruker
           bildegjenkjenning for å analysere ingrediensene og foreslå oppskrifter
           som kan lages med det brukeren har. Med KI kan man få alternative
@@ -24,15 +24,26 @@ export default function Foode() {
           implementering.
         </p>
         <p>
-          Food-E startet som et innovativt bachelorprosjekt ved Høgskolen i
+          Food-e startet som et innovativt bachelorprosjekt ved Høgskolen i
           Østfold, som vi gjennomførte gjennom Drivhuset i Østfold. Vi fikk
           stort eierskap til prosjektet gjennom bacheloren, og det var absolutt
           noe vi ville fortsette med etter selve bacheloroppgaven var levert.
           <br />
-          Under Expo 2025 vant vi NITO prisen som var en stor inspirasjon og ga
-          oss et tydeligere inntrykk om at produktet vårt har et behov. Vi
-          ønsker å gjøre det lett for folk å ha en bærekraftig livsstil,
-          samtidig som middagsplanleggingen blir enklere.
+          Under Expo 2025 vant vi{" "}
+          {
+            <a
+              id="expo_diplom_link"
+              href="/expo_diplom_2025.png"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              NITO prisen
+            </a>
+          }{" "}
+          som var en stor inspirasjon og ga oss et tydeligere inntrykk om at
+          produktet vårt har et behov. Vi ønsker å gjøre det lett for folk å ha
+          en bærekraftig livsstil, samtidig som middagsplanleggingen blir
+          enklere.
         </p>
         <p>
           Jeg har hatt ansvar for UI og UX design, og har implementert appen i
@@ -52,13 +63,13 @@ export default function Foode() {
           Appen er utviklet i React Native med Typescript.
         </p>
         <p>
-          Vi har en nettside for Food-E mer mer informasjon om prosjektet og
+          Vi har en nettside for Food-e mer mer informasjon om prosjektet og
           utviklerne, men appen er fortsatt under utvikling. Link vil bli
           tilgjengelig så fort den er lansert.
         </p>
         <br></br>
         <a target="_blank" rel="noreferrer" href="https://www.food-e.no/">
-          Les mer på hjemmesiden til Food-E her
+          Les mer på hjemmesiden til Food-e her
         </a>
       </main>
     </>

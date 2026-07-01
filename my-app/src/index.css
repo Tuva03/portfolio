@@ -87,6 +87,15 @@ nav a:hover {
   border-radius: 10%;
 }
 
+#foode_logo {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  margin: 2rem 0 2rem 0;
+  background-color: #ebd7c456;
+  border-radius: 25px;
+}
+
 #link {
   color: #691313;
   font-size: 18px;
@@ -245,6 +254,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   text-align: left;
+  padding: 0;
 }
 
 #skills_header {
@@ -258,15 +268,10 @@ a {
   width: 100%;
 }
 
-#design_skills {
-  width: 25%;
-}
-
-#frontend_skills {
-  width: 25%;
-}
-
-#backend_skills {
+#design_skills,
+#frontend_skills,
+#backend_skills,
+#other_skills {
   width: 25%;
 }
 
@@ -390,6 +395,12 @@ footer p {
     width: 100%;
   }
 
+  #foode_logo {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+  }
+
   main {
     padding: 0 6%;
   }
@@ -420,7 +431,8 @@ footer p {
 
   #design_skills,
   #frontend_skills,
-  #backend_skills {
+  #backend_skills,
+  #other_skills {
     width: 100%;
   }
 
