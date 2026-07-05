@@ -19,17 +19,18 @@ export default function Foode() {
           ingrediensene de har tilgjengelig hjemme. Appen bruker
           bildegjenkjenning for å analysere ingrediensene og foreslå oppskrifter
           som kan lages med det brukeren har. Med KI kan man få alternative
-          forslag til oppskrifter, i tillegg til videre informasjon om
-          tilberedninsmetoder. Jeg har stått for UI og UX design og
+          forslag til ingredienser, i tillegg til videre informasjon om
+          tilberedninsmetoder. Jeg har stått for UI, UX design og
           implementering.
         </p>
         <p>
           Food-e startet som et innovativt bachelorprosjekt ved Høgskolen i
-          Østfold, som vi gjennomførte gjennom Drivhuset i Østfold. Vi fikk
-          stort eierskap til prosjektet gjennom bacheloren, og det var absolutt
-          noe vi ville fortsette med etter selve bacheloroppgaven var levert.
+          Østfold, som vi gjennomførte gjennom Drivhuset Østfold. Drivhuset
+          hjalp oss med rådgivning og støtte under utviklingen. Vi fikk stort
+          eierskap til prosjektet gjennom bacheloren, og det var absolutt noe vi
+          ville fortsette med etter selve bacheloroppgaven var levert.
           <br />
-          Under Expo 2025 vant vi{" "}
+          Under Expo 2025 på Inspiria Science Center vant vi{" "}
           {
             <a
               id="expo_diplom_link"
@@ -40,37 +41,60 @@ export default function Foode() {
               NITO prisen
             </a>
           }{" "}
-          som var en stor inspirasjon og ga oss et tydeligere inntrykk om at
-          produktet vårt har et behov. Vi ønsker å gjøre det lett for folk å ha
-          en bærekraftig livsstil, samtidig som middagsplanleggingen blir
-          enklere.
+          med Food-e som var en stor inspirasjon og ga oss et tydeligere
+          inntrykk om at appen vår var et behov. Vi ønsker å gjøre det lett for
+          folk å ha en bærekraftig livsstil, samtidig som middagsplanleggingen
+          blir enklere.
         </p>
         <p>
-          Jeg har hatt ansvar for UI og UX design, og har implementert appen i
-          React Native. Jeg hadde tidligere kun erfaring med React og
-          mobilutvikling gjennom Android Studio, men det var en gøy utfordring å
-          lære seg React Native fortløpende under prosjektet. Jeg har lagd
-          low-fidelity wireframes i startfasen av prosjektet, hvor vi valgte ut
-          et par design vi likte best. Etter runder med brukertesting gikk vi
-          videre med et spesifikt design, og jeg lagde high-fidelity prototyper
-          i Figma sammen med et gruppemedlem. Vi har utviklet appen ut ifra
-          disse prototypene, og har hatt flere runder med brukertesting
+          Jeg har hatt ansvar for UI og UX design, og har implementert appen med
+          React Native og TypeScript. Jeg hadde tidligere kun erfaring med React
+          og mobilutvikling gjennom Android Studio, men det var en gøy
+          utfordring å lære seg React Native fortløpende under prosjektet. Vi
+          startet opp med å gjennomføre ekspertintervjuer for å få et intrykk av
+          hva slags forventninger ekspertene fikk ut ifra beskrivelsen av
+          Food-e. Etter vi fikk tilbakemeldinger begynte jeg å lage low-fidelity
+          wireframes hvor vi valgte ut et par design format vi likte best. Vi
+          gjennomførte flere runder med brukertesting før vi gikk videre med et
+          spesifikt design, hvor jeg og et gruppemedlem lagde high-fidelity
+          prototyper i Figma ut ifra designet vi valgte. Vi har utviklet appen
+          ut ifra disse prototypene og har hatt flere runder med brukertesting
           underveis i utviklingen.
           <br />
-          Samtidig ser vi kontinuerlig etter måter å forbedre designet og
-          brukeropplevelsen på appen.
+          Design Thinking har vært en stor del av prosessen og har blitt brukt
+          gjennom hele prosjektet for å tilpasse appen til brukernes behov som
+          ble oppdaget gjennom brukertesting og tilbakemeldinger internt i
+          gruppen.
           <br />
-          Appen er utviklet i React Native med Typescript.
+          Jeg har også undersøkt hvilke farger som passet appen vår best. Både
+          ut ifra budskapet vi ønsket å formidle med en matvareapp, men også ut
+          ifra tilgjengelighet og kontrast. Her har vi gått med grønn som
+          hovedfarge, da grønn ofte forbindes med bærekraft og sunn mat, i
+          tillegg til at det skal gi et pålitelig og beroligende inntrykk.
+          <br />
+          Vi jobber fortsatt med Food-e ved siden av jobb og skole. Vi ser
+          kontinuerlig etter måter å forbedre design, funksjonalitet og
+          brukeropplevelsen.
         </p>
         <p>
-          Vi har en nettside for Food-e mer mer informasjon om prosjektet og
-          utviklerne, men appen er fortsatt under utvikling. Link vil bli
-          tilgjengelig så fort den er lansert.
+          Food-e er utviklet med React Native, Expo og Typescript. Vi bruker
+          Expo som platform med React Native og Typescript. Vi valgte å bruke
+          Expo med React Native for å lage en app tilpasset både iOS og Android
+          uten at vi måtte skrive platformspesifikke kode. Vi ble også tipset å
+          bruke denne kombinasjonen fra bekjente utviklere med erfaring fra
+          mobilutvikling.
         </p>
-        <br></br>
+        <p>
+          Vi har en nettside for Food-e med mer informasjon om prosjektet, veien
+          videre og utviklerne. Appen er fortsatt under utvikling, link til
+          Apple Store og Google Play vil bli tilgjengelig så fort den er
+          lansert.
+        </p>
+        <br />
         <a target="_blank" rel="noreferrer" href="https://www.food-e.no/">
           Les mer på hjemmesiden til Food-e her
         </a>
+        <br />
       </main>
     </>
   );
