@@ -20,7 +20,7 @@ export default function Foode() {
           bildegjenkjenning for å analysere ingrediensene og foreslå oppskrifter
           som kan lages med det brukeren har. Med KI kan man få alternative
           forslag til ingredienser, i tillegg til videre informasjon om
-          tilberedninsmetoder. Jeg har stått for UI, UX design og
+          tilberedningsmetoder. Jeg har stått for UI, UX design og
           implementering.
         </p>
         <p>
@@ -65,12 +65,6 @@ export default function Foode() {
           gjennom hele prosjektet for å tilpasse appen til brukernes behov som
           ble oppdaget gjennom brukertesting og tilbakemeldinger internt i
           gruppen.
-          <br />
-          Jeg har også undersøkt hvilke farger som passet appen vår best. Både
-          ut ifra budskapet vi ønsket å formidle med en matvareapp, men også ut
-          ifra tilgjengelighet og kontrast. Her har vi gått med grønn som
-          hovedfarge, da grønn ofte forbindes med bærekraft og sunn mat, i
-          tillegg til at det skal gi et pålitelig og beroligende inntrykk.
           <br />
           Vi jobber fortsatt med Food-e ved siden av jobb og skole. Vi ser
           kontinuerlig etter måter å forbedre design, funksjonalitet og
